@@ -1,4 +1,4 @@
-f, points, points2 = [t.split(" ") for t in open("day2_input.txt", "r").read().split("\n")], 0, 0
+f, points, points2 = [t.split(" ") for t in open("day2_input.txt", "r").read().splitlines()], 0, 0
 reverse_win = {"A": "Y", "B": "Z", "C": "X"}
 reverse_draw = {"A": "X", "B": "Y", "C": "Z"}
 reverse_loose = {"A": "Z", "B": "X", "C": "Y"}
